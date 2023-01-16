@@ -5,7 +5,7 @@ import { defineStore } from "pinia";
 export const useNewsStore = defineStore("news", {
   // a function that returns a fresh state
   state: () => ({
-    article: { news: "test" },
+    article: {},
   }),
   // optional actions
   actions: {

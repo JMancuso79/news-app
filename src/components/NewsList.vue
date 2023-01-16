@@ -21,7 +21,7 @@ import { storeToRefs } from "pinia";
 import router from "@/router";
 
 export default {
-  name: "NewsGrid",
+  name: "NewsList",
   props: {
     news: Object,
   },
